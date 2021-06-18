@@ -29,7 +29,7 @@ function send($sid, $txt){
     'parse_mode'=>"html"
     ]);
 }
-$chanel = "@UzbBots_News";
+$chanel = "@SpecialForcesGroup2_Online";
 $userlar = "SHAHRIYORBEK1";
 $update = json_decode(file_get_contents('php://input'));
 $message = $update->message;
