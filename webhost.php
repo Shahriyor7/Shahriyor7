@@ -1,6 +1,6 @@
 <?php
 ob_start();
-define('API_KEY','1788852992:AAFkq0ZdKUMN3gA9bWsQ_A7peKOLHXRiTwI');
+define('API_KEY','1926557417:AAHxiIOovk_iF7xe1NvpnqvJZtLbwrVic2U');
 $admin = "1005223082";
 $ver = "7.1.0";
 function ty($ch){ 
