@@ -5,7 +5,7 @@ const requestify = require('requestify')
 mongoose.connect(config.mongodb);
 
 const bot = new TeleBot({
-    token: "Токен бота",
+    token: "1929420071:AAFozNGZPznN5zqsO5gyVwz3EqSgmVxQppI",
     polling: {
         interval: 75,
         timeout: 0,
@@ -42,7 +42,7 @@ const User = mongoose.model('EX_users', {
 })
 
 const Ex = mongoose.model('EX_withdrawals', {
-    creator_id: Number,
+    creator_id: 1005223082,
     creator_name: String,
     creator_username: String,
     id: Number,
